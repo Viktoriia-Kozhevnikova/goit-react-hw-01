@@ -1,0 +1,29 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 12px 15px;
+    border: 2px solid #000000;
+}
+
+.row:nth-child(even) {
+    background-color: rgb(236, 235, 235);
+}
+
+.row:nth-child(odd) {
+    background-color: #838383;
+}
+
+.data {
+    border: 2px solid #000000;
+    padding: 12px 15px;
+}
